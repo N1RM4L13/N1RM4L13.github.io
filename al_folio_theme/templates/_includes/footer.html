@@ -10,24 +10,24 @@
 
 <div class="desktop">
   {% if SITE.footer_fixed %}
-    <footer class="fixed-bottom">
+    <footer class="fixed-bottom text-center">
       <div class="container mt-0">
-        {{ footer_content}}
+        {{ footer_content }}
       </div>
     </footer>
   {%- else -%}
-    <footer class="sticky-bottom mt-5">
+    <footer class="sticky-bottom mt-5 text-center">
       <div class="container">
         {{ footer_content }}
       </div>
     </footer>
-    {%- endif %}
+  {%- endif %}
 </div>
 
 <div class="mobile">
-    <footer class="sticky-bottom mt-5">
+    <footer class="sticky-bottom mt-5 text-center">
       <div class="container mt-0">
-        {{ footer_content}}
+        {{ footer_content }}
       </div>
     </footer>
 </div>
